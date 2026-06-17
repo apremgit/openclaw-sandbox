@@ -1,0 +1,1 @@
+Write an optimized Python script using boto3 to inventory all AWS IAM access keys across the account, identifying any active keys older than 90 days.

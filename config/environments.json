@@ -1,0 +1,10 @@
+{
+  "project_name": "openclaw-gstack-agent",
+  "default_brain": "openrouter/auto-free",
+  "environments": {
+    "dev": { "mode": "sandbox", "debug": true, "log_level": "DEBUG" },
+    "test": { "mode": "testing", "runner": "bun", "log_level": "INFO" },
+    "stage": { "mode": "emulation", "containerized": true, "log_level": "INFO" },
+    "prod": { "mode": "live", "live_execution": true, "log_level": "WARNING" }
+  }
+}
